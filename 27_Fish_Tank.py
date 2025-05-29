@@ -80,4 +80,8 @@ def get_random_color():
     '''Return a string of a random color.'''
     fish_type = random.choice(FISH_TYPES)
 
+def generate_fish():
+    """Return a dictionary that represents a fish."""
+    fish_type = random.choice(FISH_TYPES)
+
     
