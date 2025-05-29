@@ -84,4 +84,11 @@ def generate_fish():
     """Return a dictionary that represents a fish."""
     fish_type = random.choice(FISH_TYPES)
 
+    color_pattern = random.choice(('random', 'head-tail', 'single'))
+    fish-length = len(fish_type['right'][0])
+    if color_pattern == 'random':
+        colors = []
+        for i in range(fish_length):
+            colors.append(get_random_color())
+
     
